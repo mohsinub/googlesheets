@@ -17,10 +17,9 @@ export default function Header() {
   return (
     <header className="p-4 flex justify-between items-center bg-gray-200 dark:bg-gray-800">
       <h1 className="text-xl font-bold">My App</h1>
-      //header link to list
         <a href="/list">List</a>
         <Link href="/list">
-          List  
+          Lists
         </Link>
       <button
         onClick={toggleTheme}
